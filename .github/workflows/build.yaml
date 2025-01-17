@@ -34,5 +34,5 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ghcr.io/${{ github.repository }}:${{github.ref_name}}-latest,
-            ghcr.io/${{ github.repository }}:${{github.ref_name}}-${{ github.sha }}
+            sinhluu/go-echo-http:${{github.ref_name}}-latest,
+            sinhluu/go-echo-http:${{github.ref_name}}-${{ github.sha }}
